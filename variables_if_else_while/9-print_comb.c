@@ -14,18 +14,15 @@ int main(void)
 		putchar(a);
 		if (a != 57)
 		{
-			putchar(a);
-			if (a != 57)
-			{
-				putchar(44);
-				putchar(32);
-				a++;
-			}
-			else
-			{
-				a++;
-			}
+			putchar(44);
+			putchar(32);
+			a++;
 		}
-		putchar('\n');
-		return (0);
+		else
+		{
+			a++;
+		}
+	}
+	putchar('\n');
+	return (0);
 }
